@@ -16,10 +16,76 @@ li a {
     
 }
 
-header {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: black;
-    background: #FFA500;
-}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+  header {
+    background: #333;
+  }
 
+   footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: right;
+    color: white;
+
+  }
+
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #d21034;
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: red;
+  }
+  
+  #main-bio {
+    width: 100%;
+  }
+  
+  #contact-info {
+    _width: 30%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  
