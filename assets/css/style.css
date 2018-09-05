@@ -19,24 +19,28 @@ li a {
 }
 
 body {
-    background-image: src="assets\images\gravel.png";
+    background-image: url(../images/gravel.png);
     padding: 0;
     margin: 0;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
+    color: #777777;
     
   }
   
   header {
-    background: #333;
+    background: #4aaaa5;
     position: fixed;
     width: 100%;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    
+    
   }
   
   .header {
-    background-color: #777;
+    background-color: #4aaaa5;
     padding: 10px;
     text-align: right;
     color: white;
@@ -48,7 +52,7 @@ body {
   }
 
    footer {
-    background-color: #777;
+    background-color: #666666;
     padding: 10px;
     text-align: center;
     color: white;
@@ -58,24 +62,33 @@ body {
     padding: 0;
     width: 100%;
     right: 0;
+    
+
+  }
+
+  h6{
+    line-height: 0%;
+    margin: 10px;
 
   }
 
   h1 {
-    padding: 20px 20px,20px,20px;
-    margin: 0;
+    display: inline;
+    background-color: #4aaaa5;
+    margin-left: 20%;
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 28px;
-    color: #eee;
     text-align: center;
     float: left;
+    color: white;
+    border: 20px;
   }
   
   h2 {
-    font-size: 24px;
-    padding-bottom: 10px;
-    padding-left: 10px
+    font-size: 30px;
+
+    color: #4aaaa5;
   }
   
   a {
@@ -103,7 +116,8 @@ body {
     float: right;
     padding: 20px;
     width: 100%;
-    background-color: red;
+    background-color: #ffffff;
+    border-color: #dddddd;
   }
   
   #main-bio {
@@ -151,7 +165,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #4aaaa5;
 }
 
 div.gallery {
