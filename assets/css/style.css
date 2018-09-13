@@ -189,5 +189,32 @@ div.desc {
     text-align: center;
 }
 
-@media (max-width: 640px) {
-  .header {background: red;}
+@media screen and (max-width: 640px) {
+  .header {
+      position: fixed;
+      align-self: flex-start;
+      top: 0;
+      margin: 0;
+  }
+  h1{
+    margin: 0;
+    text-align: center;
+    
+  }
+}
+
+
+@media screen and (max-width: 980px) {
+}
+   
+
+@media screen and (max-width: 768px) {
+       
+
+
+.column {
+float: left;
+ width: 33.33%;
+ padding: 5px;
+ }
+}
